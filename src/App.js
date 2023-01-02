@@ -36,7 +36,7 @@ function App() {
           <div className='title'>{w.name}</div>
         </div>}
       <div className='category'>{w.class}</div>
-      <img src={w.image} className="image"/>
+      <img src={w.image} className="image" alt=""/>
       
     
       </div>)
