@@ -3,6 +3,7 @@ import './App.css';
 function App() {
   const wishList = [
     {name: "Tripode flexible para camara", image: "https://m.media-amazon.com/images/I/71PG4wrSMrL._AC_SX569_.jpg", class:"Fotografia", owned: false},
+    {name: "Juego de Mesa", image: "https://m.media-amazon.com/images/I/81CWuOZMbaL._AC_SL1500_.jpg", class:"Entretenimiento", owned: false},
     {name: "Keychron k4", image: "https://cdn.shopify.com/s/files/1/0059/0630/1017/products/Keychron-K4-version2-hot-swappable-wireless-mechanical-keyboard-96percent-layout-for-Mac-Windows-iOS-Gateron-switch-blue-with-type-C-RGB-white-backlight-aluminum-frame_44ed9c5f-0614-40a7-885b-e3baeff412e2_1800x1800.jpg?v=1644399874", class:"Trabajo", owned: false},
     {name: "Funda Silicona para A7III", image: "https://m.media-amazon.com/images/I/716tfBHuQcL._AC_SX679_.jpg", class:"Fotografia", owned: false},
     {name: "Soporte articulado microfono", image: "https://m.media-amazon.com/images/I/61YnaxAjIWL._AC_SL1500_.jpg", class:"Audio", owned: false},
@@ -12,12 +13,16 @@ function App() {
     {name: "Sony A6300", image: "https://m.media-amazon.com/images/I/71ieGbb-MOL._AC_SL1500_.jpg", class:"Fotografia", owned: false},
     {name: "De Missisipi a Madrid", image: "https://m.media-amazon.com/images/I/41uU85OBDIL.jpg", class:"Libro", owned: false},
     {name: "Tarjeta SD (>150MB/s)", image: "https://m.media-amazon.com/images/I/71xOzoeO3-L._AC_AA180_.jpg", class:"Fotografia", owned: false},
-    {name: "Discos olimpicos de 2,5", image: "https://maniakfitness.com/media/images/142-Discos-de-metal-calibrados-para-Powerlifting-PWR-Set-de-2-2-5-kilos-v6362a35f17f45.jpg", class:"Gym", owned: false},
+    {name: "Discos olimpicos de 2,5", image: "https://maniakfitness.com/media/images/142-Discos-de-metal-calibrados-para-Powerlifting-PWR-Set-de-2-2-5-kilos-v6362a35f17f45.jpg", class:"Gym", owned: false, price: 60},
+    {name: "Discos olimpicos de 1,25", image: "https://maniakfitness.com/media/images/141-Discos-de-metal-calibrados-para-Powerlifting-PWR-Set-de-2-1-25-kilos-v6362a3431acba.jpg", class:"Gym", owned: false, price: 40},
     {name: "Funda protectora de objetivo", image: "https://m.media-amazon.com/images/I/71gpQJya-BL._AC_SL1500_.jpg", class:"Fotografia", owned: false},
     {name: "Manta akatsuki", image: "https://ae01.alicdn.com/kf/Sc10167f087ac47488eeacb832b62b7a6l/Akatsuki-Juego-de-ropa-de-cama-con-Logo-de-nube-roja-juego-de-fundas-de-edred.jpg_Q90.jpg_.webp", class:"Casa", owned: false},
     {name: "Pastilla SH-4 Gold", image: "https://bdbo2.thomann.de/thumb/bdb3000/pics/bdbo/10366257.jpg", class:"Musica", owned: false},
     {name: "Seymour Duncan SH2N-4C GC", image: "https://bdbo1.thomann.de/thumb/bdb3000/pics/bdbo/12609581.jpg", class:"Musica", owned: false},
-
+    {name: "Kimono Demon Slayer", image: "https://litb-cgis.rightinthebox.com/images/x/202112/bps/product/inc/rnfoxk1640251608506.jpg", class:"Ropa", owned: false},
+    {name: "Gobe Filtro ND64 49mm", image: "https://m.media-amazon.com/images/I/71EVVFpXKHL._AC_SL1500_.jpg", class:"Fotografia", owned: false},
+    {name: "Tapa objetivo", image: "https://m.media-amazon.com/images/I/41QYxWTnvRL._AC_.jpg", class:"Fotografia", owned: false},
+    {name: "Gobe Filtro ND64 49mm", image: "https://m.media-amazon.com/images/I/71EVVFpXKHL._AC_SL1500_.jpg", class:"Fotografia", owned: false},
 
     
 
